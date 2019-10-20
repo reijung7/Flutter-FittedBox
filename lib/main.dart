@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'homepage.dart';
 
 void main() => runApp(MyApp());
@@ -10,9 +9,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
+      title: 'Flutter Homework',
       theme: ThemeData(
-        primaryColor: Color(0xffe6020a),
+        primaryColor: Color(0xFFF48FB1),
       ),
       home: HomePage(),
     );
